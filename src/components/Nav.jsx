@@ -4,6 +4,7 @@ import Sm30days from './Sm30days';
 import Contact from './Contact';
 import Impostor from './Impostor';
 import Learning from './Learning';
+
 import React from 'react'
 import { Routes, Route, Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
@@ -31,9 +32,9 @@ const Navig = () =>
         <NavDropdown.Item href="/contact">
         Contact
         </NavDropdown.Item>
-        <NavDropdown.Item href="/#">Something</NavDropdown.Item>
+        <NavDropdown.Item href="/#something">Something</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">
+        <NavDropdown.Item href="/#action">
           Separated link
         </NavDropdown.Item>
       </NavDropdown>
@@ -42,12 +43,12 @@ const Navig = () =>
     </Container>
   </Navbar>
   <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/sm30days" element={<Sm30days />} />
-    <Route path="/impostor" element={<Impostor />} />
-    <Route path="/learning" element={<Learning />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/contact" element={<Contact />} />
+    <Route path="/" element={<Home/>} />
+    <Route path="/sm30days" element={<Sm30days/>} />
+    <Route path="/impostor" element={<Impostor/>} />
+    <Route path="/learning" element={<Learning/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/contact" element={<Contact/>} />
     
   </Routes>
   

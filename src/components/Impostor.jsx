@@ -36,7 +36,7 @@ function Impostor() {
                     ripping us apart. Dissecting us piece by piece making us feel less worthy of what we want. Don't let anything
                     get into your head where you stop believing in yourself. Everyday look in the mirror and say; I am good enough.
                     Never stop believing in yourself. Your future self will thank you. You will look back and say; I am happy I 
-                    didn't give up or believe I wasn't good enough.
+                    didn't give up or believed I wasn't good enough.
 
                 </p>
                  
