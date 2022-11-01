@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Learning() {
+   
     return (
         <div className="blog-post-intro">
             {/* <h2>Why I love front-end web development</h2> */}
@@ -20,7 +21,7 @@ function Learning() {
                 </p>
                 <p> 
                 </p>
-                {/* <p className="link">Read more...</p> */}
+                <a href={"https://acrosstraducciones.com/2017/09/06/learning-how-to-learn/"}>Click here to read article</a>
             </div>
         </div>
     );
