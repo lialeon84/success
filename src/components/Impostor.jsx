@@ -31,12 +31,12 @@ function Impostor() {
                     you start comparing yourself, stop what you're doing, take a deep breathe and say, "I am good enough. I am good enough where 
                     I'm at and I will get better. I will get there soon enough."
                 </p>
-                <p>Nothing is stopping us from reaching the level of success we want. We stops ourselves by believing in things 
+                <p>Nothing is stopping us from reaching the level of success we want. We stop ourselves by believing things 
                     that aren't true. What we tell ourselves over and over again. Am I smart enough? Am I good enough? 
-                    We are setting all of these limitations in our minds. Social media does a good part of ripping us apart and making us 
+                    We set all of these limitations in our minds. Social media does a good part of ripping us apart and making us 
                     feel worse. Dissecting us piece by piece making us feel less worthy of what we want. Don't let anything
                     get into your head to make you stop believing in yourself. Remember to say to yourself, "I am good enough."
-                    Never stop believing in yourself. Your future self will thank you. 
+                    Never stop believing in yourself because your future self will thank you. 
                 </p>
                  
             </div>
