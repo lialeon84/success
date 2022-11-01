@@ -1,17 +1,18 @@
 
 import React from 'react'
-//import myPic from './myself.jpg'
+import myPic from './img/myself.jpg'
  
 function About() { 
   return (
     <div className="blog-post-intro">
-    {/* <h2>Why I love front-end web development</h2> */}
+   
     <h2>Who am I?</h2>
     <div className='imgWrapper'>
-      <img src={'/myself.jpeg'} alt="Myself" className="img-fluid"/>
+      {/* <div className="img-fluid"></div> */}
+      <img src={myPic} alt="Myself" className="img-fluid"/>
     </div>
     <div className="wrapper">
-        {/* <p>In this blog post, I'll list 10 reasons why I love to work as a front-end developer.</p> */}
+      
         <p>I am Rose! A Full-Stack Web Developer from Nashville, TN. I have serious passion for animations and creating intuitive dynamic user experiences.
         </p>
         <p> Learning has always been a passion of mine. That is what makes programming and software development such a great field to be in. 
