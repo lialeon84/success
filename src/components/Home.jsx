@@ -1,5 +1,5 @@
 import React from 'react'
-
+import codeHappy from './img/codehappy.jpg'
 function Home() {
   // function handleClick() { 
   //   let randomNum = Math.floor(Math.random() * 3) + 1;
@@ -12,12 +12,13 @@ function Home() {
     {/* <h2>Why I love front-end web development</h2> */}
     <h2>Welcome!
     <hr></hr></h2>
-    <div className='codehappy'>
-     
-    </div>
+    
+    <div className='imgWrappertwo'>
+              <img src={codeHappy} alt="Myself" className="img-fluidtwo"/>
+           </div>
 
     <div className="wrapper">
-        
+   
         <p className="text-center">I created this React App to share my experience and knowledge with others.
         </p>
         <p className="text-center"> I have read many books and gather all the helpful tips so you don't have to.
@@ -27,7 +28,7 @@ function Home() {
         
         
     </div>
-    <hr></hr>
+    {/* <hr></hr> */}
 </div>
 
     // <div>

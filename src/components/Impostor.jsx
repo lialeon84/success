@@ -1,16 +1,19 @@
 import React from 'react'
-
+import impostorPic from './img/amIGood.jpg'
 function Impostor() {
      
     return (
         <div className="blog-post-intro">
-            {/* <h2>Why I love front-end web development</h2> */}
+           
             <h2>Impostor Syndrome</h2>
+            {/* <hr></hr> */}
 
-            <div className='impostor'></div>
+            <div className='imgWrappertwo'>
+              <img src={impostorPic} alt="Myself" className="img-fluidtwo"/>
+           </div>
 
             <div className="wrapper">
-                {/* <p>In this blog post, I'll list 10 reasons why I love to work as a front-end developer.</p> */}
+              
                 <p>In today's society there's a lot of pressure to achieve success and that can drive us to over do it. 
                    Usually because of that pressure, we may blur healthy boundaries. We pressure and overwork ourselves 
                    trying to get things done fast which can lead to burnout and forgetfulness. 
@@ -38,7 +41,7 @@ function Impostor() {
                     get into your head to make you stop believing in yourself. Remember to say to yourself, "I am good enough."
                     Never stop believing in yourself because your future self will thank you. 
                 </p>
-                 <h6>By: Rose Vergel</h6>
+                 <h6>By: Rose V.</h6>
             </div>
         </div>
     );

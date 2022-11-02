@@ -1,13 +1,18 @@
 import React from 'react'
-
+import socialMedia from './img/alexander-shatov-mr4JG4SYOF8-unsplash.jpg'
 function Sm30days() {
     return (
         <div className="blog-post-intro">
-            {/* <h2>Why I love front-end web development</h2> */}
+            
             <h2>Things I noticed about myself without social media for 30 days</h2>
-            <div className='socialMedia'></div>
+            {/* <hr></hr> */}
+            <div className='imgWrappertwo'>
+              <img src={socialMedia} alt="Myself" className="img-fluidtwo"/>
+           </div>
+
+            
             <div className="wrapper">
-                {/* <p>In this blog post, I'll list 10 reasons why I love to work as a front-end developer.</p> */}
+               
                 <p>What I noticed on the first few days without social media was that time went by slower. 
                    I had nothing to distract me. There was nothing filling in the gaps of every minute of my day.
                    There was a sense of emptiness and urge to check Twitter, Instagram, Facebook, LinkedIn and TikTok.
@@ -29,7 +34,7 @@ function Sm30days() {
                 It really was about me and about preserving my energy. I learned that I should really be more prudent 
                 with my time and my energy.
                 </p>
-                <h6>By: Rose Vergel</h6>
+                <h6>By: Rose V.</h6>
             </div>
         </div>
     );

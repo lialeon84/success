@@ -1,5 +1,5 @@
 import React from 'react'
-
+import brainPic from './/img/milad-fakurian-58Z17lnVS4U-unsplash.jpg'
 function Learning() {
    
     return (
@@ -9,7 +9,9 @@ function Learning() {
             
             <h6>By: Dr. Terrence Sejnowski</h6>
          
-            <div className='learning'></div>
+            <div className='imgWrappertwo'>
+              <img src={brainPic} alt="Myself" className="img-fluidtwo"/>
+           </div>
            
             <div className="wrapper">
             
