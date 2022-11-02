@@ -118,18 +118,6 @@ p {
 }
 
 
-/* MacBook pic */
-
-.header {
-    box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
-    background: url("../public/macBookPro.jpg") center center repeat;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
-    opacity: 0.9;
-    height: 20rem;
-}
-
-
 /* .impostor {
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
     background: url("../public/amIGood.jpg") center center;
@@ -162,4 +150,22 @@ p {
     padding: 25px;
     height: auto;
     width: 55%;
+}
+
+
+/* This makes header pix fluid */
+
+.img-fluidthree {
+    max-width: 100%;
+    width: 100%;
+    opacity: 0.9;
+    height: 20rem;
+    border-style: none;
+    box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
+}
+
+.imgWrapperthree {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
 }
