@@ -38,7 +38,7 @@ function Impostor() {
                     get into your head to make you stop believing in yourself. Remember to say to yourself, "I am good enough."
                     Never stop believing in yourself because your future self will thank you. 
                 </p>
-                 
+                 <h6>By: Rose Vergel</h6>
             </div>
         </div>
     );

@@ -29,7 +29,7 @@ function Sm30days() {
                 It really was about me and about preserving my energy. I learned that I should really be more prudent 
                 with my time and my energy.
                 </p>
-                {/* <p className="link">Read more...</p> */}
+                <h6>By: Rose Vergel</h6>
             </div>
         </div>
     );
