@@ -27,6 +27,7 @@ function Home() {
         
         
     </div>
+    <hr></hr>
 </div>
 
     // <div>

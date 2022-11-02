@@ -29,14 +29,14 @@ const Navig = () =>
         <Nav.Link href="/learning">Learning</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/about">About</NavDropdown.Item>
-        <NavDropdown.Item href="/contact">
+        {/* <NavDropdown.Item href="/contact">
         Contact
         </NavDropdown.Item>
         <NavDropdown.Item href="/#something">Something</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="/#action">
           Separated link
-        </NavDropdown.Item>
+        </NavDropdown.Item> */}
       </NavDropdown>
       </Nav>
       </Navbar.Collapse>
