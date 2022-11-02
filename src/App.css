@@ -1,19 +1,23 @@
-.App {
+/* .App {
     text-align: center;
-}
+} */
 
-.App-logo {
+
+/* .App-logo {
     height: 40vmin;
     pointer-events: none;
-}
+    border-radius: 50%!important;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
     }
-}
+} */
 
-.App-header {
+
+/* .App-header {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -22,9 +26,10 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
+} */
 
-.App-link {
+
+/* .App-link {
     color: #61dafb;
 }
 
@@ -35,24 +40,53 @@
     to {
         transform: rotate(360deg);
     }
+} */
+
+.logopic {
+    height: 18%;
+    width: 18%;
+    margin-left: auto;
+    border-radius: 50%!important;
+    /* padding: 5%; */
+    margin-right: auto;
 }
 
 .color-nav {
-    /* background-image: purple; */
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
     background: url("../public/texture-violet.png") center center repeat;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
+    /* border-top: 1px solid #999;
+    border-bottom: 1px solid #999; */
     /* background-color: #79d7ee; */
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 
 .mr-auto {
-    color: rgb(5, 1, 1);
+    text-align: center;
+    color: rgb(87, 86, 87);
     font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h2 {
+    text-align: center;
+    padding: 25px;
+    color: #555;
+}
+
+h6 {
+    text-align: center;
+    padding: 25px;
+    color: #555;
+}
+
+h3 {
+    text-align: center;
+    padding: 25px;
+    color: #555;
+}
+
+h5 {
     text-align: center;
     padding: 25px;
     color: #555;

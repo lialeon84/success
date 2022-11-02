@@ -5,13 +5,14 @@ import Contact from './Contact';
 import Impostor from './Impostor';
 import Learning from './Learning';
 
+
 import React from 'react'
 import { Routes, Route, Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+// import { ReactComponent as Logo } from "./img/logo4.svg";
 
 
 
@@ -19,7 +20,18 @@ const Navig = () =>
     <>
     <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
     <Container>
-      <Navbar.Brand href="/" className='coderChic'>Coder Chic</Navbar.Brand>
+      <Navbar.Brand href="/" >
+        <div className='coderChic'>
+      <img src={process.env.PUBLIC_URL + './IMG_1980.PNG'} alt="Image" className='logopic'></img> </div>
+      {/* <Logo
+          alt=""
+          width="30"
+          height="30"
+          border-radius="50%!important"
+          className="d-inline-block align-top"
+        /> */}
+        {/* Coder Chic */}
+        </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
