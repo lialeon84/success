@@ -10,19 +10,19 @@ function Home() {
   return (
     <div className="blog-post-intro">
     {/* <h2>Why I love front-end web development</h2> */}
-    <h2>Welcome!</h2>
-
+    <h2>Welcome!
+    <hr></hr></h2>
     <div className='codehappy'>
      
     </div>
 
     <div className="wrapper">
         
-        <p>I created this React App to share my experience and knowledge with others.
+        <p className="text-center">I created this React App to share my experience and knowledge with others.
         </p>
-        <p> I have read many books and gather all the helpful tips so you don't have to.
+        <p className="text-center"> I have read many books and gather all the helpful tips so you don't have to.
         </p>
-        <p> Enjoy!
+        <p className="text-center"> Enjoy!
         </p>
         
         
