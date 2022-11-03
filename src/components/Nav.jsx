@@ -30,7 +30,7 @@ const Navig = () =>
           border-radius="50%!important"
           className="d-inline-block align-top"
         /> */}
-        {/* Coder Chic */}
+       
         </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
