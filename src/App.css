@@ -16,17 +16,16 @@
     }
 } */
 
-
-/* .App-header {
+.App-header {
     background-color: #282c34;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
     font-size: calc(10px + 2vmin);
     color: white;
-} */
+}
 
 
 /* .App-link {
@@ -53,19 +52,20 @@
 
 .color-nav {
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
-    background: url("../public/texture-violet.png") center center repeat;
+    background: url("../public/ep_naturalwhite.png") center center repeat;
     /* border-top: 1px solid #999;
     border-bottom: 1px solid #999; */
-    /* background-color: #79d7ee; */
+    /* background-color: #f8f6f6; */
     /* opacity: 0.6; */
+    /* color: rgb(251, 250, 251); */
 }
 
-.mr-auto {
+Nav {
     text-align: center;
-    color: rgb(87, 86, 87);
+    color: rgb(251, 250, 251);
     font-size: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
 h2 {
@@ -143,7 +143,7 @@ p {
 
 .page-footer {
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
-    background: url("../public/texture-violet.png") center center repeat;
+    background: url("../public/ep_naturalwhite.png") center center repeat;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     background-color: #79d7ee;
