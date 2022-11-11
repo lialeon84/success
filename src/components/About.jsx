@@ -13,7 +13,7 @@ function About() {
     </div>
     <div className="wrapper">
       
-        <p>I am Rose! A Full-Stack Web Developer from Nashville, TN. I have serious passion for animations and creating intuitive dynamic user experiences.
+        <p>I am Rose! A Full-Stack Web Developer. I have serious passion for animations and creating intuitive dynamic user experiences.
         </p>
         <p> Learning has always been a passion of mine. That is what makes programming and software development such a great field to be in. 
           There are always new things to learn and a lot of ways to approach it. The programming world is all about sharing what we know and working together to solve problems. 
