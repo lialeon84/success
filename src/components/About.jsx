@@ -19,7 +19,7 @@ function About() {
           There are always new things to learn and a lot of ways to approach it. The programming world is all about sharing what we know and working together to solve problems. 
           Creating something completely new and interesting from scratch and finding ways to make it easy for users to enjoy.
         </p>
-        <p> Building quality websites and applications with C# .Net, HTML, CSS3, and JavaScript. Optimizing the performance of user-centric high-impact websites. 
+        <p> Building quality websites and applications with C# .Net, HTML, CSS3, JavaScript and React. Optimizing the performance of user-centric high-impact websites. 
           Analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.
         </p>
         
