@@ -27,20 +27,6 @@
     color: white;
 }
 
-
-/* .App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-} */
-
 .logopic {
     height: 18%;
     width: 18%;
@@ -52,17 +38,29 @@
 
 .color-nav {
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
-    background: url("../public/ep_naturalwhite.png") center center repeat;
+    /* background: url("../public/ep_naturalwhite.png") center center repeat; */
     /* border-top: 1px solid #999;
     border-bottom: 1px solid #999; */
-    /* background-color: #f8f6f6; */
+    background-color: #7a769b;
     /* opacity: 0.6; */
-    /* color: rgb(251, 250, 251); */
+}
+
+#link {
+    text-align: center;
+}
+
+#impostor,
+#collasible-nav-dropdown {
+    color: rgb(252, 249, 249);
+    background-color: #7a769b;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 Nav {
     text-align: center;
-    color: rgb(251, 250, 251);
+    font-weight: bold;
     font-size: 20px;
     /* margin-right: auto;
     margin-left: auto; */
@@ -95,8 +93,8 @@ h5 {
 p {
     letter-spacing: 2px;
     /* font-size: 25px; */
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: bold;
     border: 1px solid transparent;
     color: #555;
     display: block;
@@ -143,12 +141,17 @@ p {
 
 .page-footer {
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
-    background: url("../public/ep_naturalwhite.png") center center repeat;
+    /* background: url("../public/ep_naturalwhite.png") center center repeat; */
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
-    background-color: #79d7ee;
-    opacity: 0.6;
-    color: rgb(5, 1, 1);
+    background-color: #7a769b;
+    /* opacity: 0.6; */
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+}
+
+#footerName {
+    color: rgb(252, 249, 249);
 }
 
 
@@ -167,11 +170,12 @@ p {
 } */
 
 
-/* This makes all front page pix fluid */
+/* This makes front page pix fluid */
 
 .img-fluidtwo {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
     vertical-align: middle;
     border-style: none;
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
@@ -181,15 +185,36 @@ p {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
+    padding: auto;
     height: auto;
-    width: 55%;
+    width: auto;
+}
+
+
+/* This makes all other pages pix fluid */
+
+.img-fluidthree {
+    max-width: 100%;
+    /* width: auto; */
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
+}
+
+.imgWrapperthree {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    height: auto;
+    width: 100%;
 }
 
 
 /* This makes header pix fluid */
 
-.img-fluidthree {
+.img-fluidfour {
     max-width: 100%;
     width: 100%;
     opacity: 0.9;
@@ -198,8 +223,9 @@ p {
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
 }
 
-.imgWrapperthree {
+.imgWrapperfour {
     display: grid;
+    height: 20%;
     margin-left: auto;
     margin-right: auto;
 }
