@@ -1,5 +1,5 @@
 import React from 'react'
-import macbookPic from './img/header.png'
+
 
 const Header = () => {
 

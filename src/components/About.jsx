@@ -6,13 +6,14 @@ function About() {
   return (
     <div className="blog-post-intro">
    
-    <h2>Who am I?</h2>
+   
     <div className='imgWrapper'>
       {/* <div className="img-fluid"></div> */}
       <img src={myPic} alt="Myself" className="img-fluid"/>
     </div>
     <div className="wrapper">
-      
+    <h2>Who am I?</h2>
+    <hr></hr>
         <p>I am Rose! A Full-Stack Web Developer. I have serious passion for animations and creating intuitive dynamic user experiences.
         </p>
         <p> Learning has always been a passion of mine. That is what makes programming and software development such a great field to be in. 
@@ -22,7 +23,7 @@ function About() {
         <p> Building quality websites and applications with C# .Net, HTML, CSS3, JavaScript and React. Optimizing the performance of user-centric high-impact websites. 
           Analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.
         </p>
-        
+        <hr></hr>
     </div>
     
 </div>

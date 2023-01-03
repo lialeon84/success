@@ -19,9 +19,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navig = () =>
     <>
-    <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
+    <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
     <Container>
-      <Navbar.Brand id="impostor" href="/" >
+      <Navbar.Brand id="navLinks" href="/" >
         {/* <div className='coderChic'>
       <img src={process.env.PUBLIC_URL + './IMG_1980.PNG'} alt="Image" className='logopic'></img> </div> */}
       {/* <Logo
@@ -36,14 +36,14 @@ const Navig = () =>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-        <Nav.Link id="impostor" href="/">Home</Nav.Link>
+        <Nav.Link id="navLinks" href="/">Home</Nav.Link>
         {/* <Nav.Link href="/sm30days">30Days</Nav.Link> */}
-        <Nav.Link id="impostor" href="/impostor">Impostor</Nav.Link>
-        <Nav.Link id="impostor" href="/learning">Learning</Nav.Link>
-        <Nav.Link id="impostor" href="/reactpage">React</Nav.Link>
+        <Nav.Link id="navLinks" href="/impostor">Impostor</Nav.Link>
+        <Nav.Link id="navLinks" href="/learning">Learning</Nav.Link>
+        <Nav.Link id="navLinks" href="/reactpage">React</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item id="impostor" href="/sm30days">30Days</NavDropdown.Item>
-        <NavDropdown.Item id="impostor" href="/about">About</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/sm30days">30Days</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/about">About</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
         </NavDropdown.Item>

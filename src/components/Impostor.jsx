@@ -4,12 +4,14 @@ function Impostor() {
      
     return (
         <div className="blog-post-intro">
-           
+           <h2>Love Thyself</h2>
+           <hr id='impostorHr'></hr>
             <div className='imgWrapperthree'>
               <img src={impostorPic} alt="Myself" className="img-fluidthree"/>
            </div>
 
             <div className="wrapper">
+            <h5 className="text-uppercase">How to believe in yourself</h5>
             <hr></hr> 
                 <p>In today's society there's a lot of pressure to achieve success and that can drive us to over do it. 
                    Usually because of that pressure, we may blur healthy boundaries. We pressure and overwork ourselves 
@@ -38,7 +40,7 @@ function Impostor() {
                     get into your head to make you stop believing in yourself. Remember to say to yourself, "I am good enough."
                     Never stop believing in yourself because your future self will thank you. 
                 </p><hr></hr> 
-                 <h6>By: Rose </h6>
+                 <h6>By: Rose L.</h6>
             </div>
         </div>
     );

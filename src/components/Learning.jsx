@@ -6,7 +6,8 @@ function Learning() {
         <div className="blog-post-intro">
             {/* <h2>Why I love front-end web development</h2> */}
             <h2>The Way The Brain Learns</h2>
-            
+            <hr id='learningHr'></hr>
+           
             <div className='imgWrapperthree'>
               <img src={brainPic} alt="Myself" className="img-fluidthree"/>
            </div>
