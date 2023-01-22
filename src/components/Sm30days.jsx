@@ -5,8 +5,9 @@ function Sm30days() {
         <div className="blog-post-intro">
             
             <h2>30 Day's Social Media Detox</h2>
-            <hr id='hr30Days'></hr>
+            {/* <hr id='hr30Days'></hr> */}
             <div className='imgWrapperthree'>
+                <hr></hr>
               <img src={socialMedia} alt="Myself" className="img-fluidthree"/>
            </div>
 

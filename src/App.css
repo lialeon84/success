@@ -55,7 +55,99 @@
    
 } */
 
+pre {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    clear: both;
+    color: #fff;
+    background: #7a769b;
+    padding: 0;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+    -ms-word-break: normal;
+    word-break: normal;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    position: relative;
+    line-height: 28px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
+}
+
+javascript,
+.language-scss {
+    color: #f5d67b;
+}
+
+pre code {
+    font-size: 11px;
+    padding: 15px 20px 10px 14px;
+}
+
+code {
+    font-size: inherit;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+
+#pictext {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 35%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    max-width: auto;
+    max-height: auto;
+    padding: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#pictexttwo {
+    /* text-align: left; */
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10.2vw;
+    color: #fdcbfe;
+    text-shadow: 2px 2px #c1899b;
+    animation-name: reactword;
+    animation-duration: 5s;
+}
+
+@keyframes reactword {
+    0% {
+        color: #fdcbfe;
+        text-shadow: 2px 2px #c1899b;
+    }
+    25% {
+        color: #d57baf;
+        text-shadow: 2px 2px #c1899b;
+    }
+    50% {
+        color: #be9eee;
+        text-shadow: 2px 2px #a17ae9;
+    }
+    100% {
+        color: #004aad;
+        text-shadow: 2px 2px #232b73;
+    }
+}
+
+
+/* h2 is for the title */
+
 h2 {
+    text-align: center;
+    padding: 25px;
+    color: #555;
+}
+
+
+/* under pic header */
+
+h5 {
     text-align: center;
     padding: 25px;
     color: #555;
@@ -67,28 +159,16 @@ h6 {
     color: #555;
 }
 
-h3 {
-    text-align: center;
-    padding: 25px;
-    color: #555;
-}
-
-h5 {
-    text-align: center;
-    padding: 25px;
-    color: #555;
-}
-
-#whoAmIHr {
-    width: 180px;
+#impostorHr {
+    width: 215px;
     margin-right: auto;
     margin-left: auto;
     margin-top: -17px;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 
 #learningHr {
-    width: 350px;
+    width: 385px;
     margin-right: auto;
     margin-left: auto;
     margin-top: -17px;
@@ -103,12 +183,12 @@ h5 {
     margin-bottom: 1%;
 }
 
-#impostorHr {
-    width: 215px;
+#whoAmIHr {
+    width: 180px;
     margin-right: auto;
     margin-left: auto;
     margin-top: -17px;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 p {
@@ -188,7 +268,6 @@ p {
 
 .img-fluidthree {
     max-width: 100%;
-    /* width: auto; */
     height: auto;
     vertical-align: middle;
     border-style: none;
@@ -199,9 +278,11 @@ p {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    padding: 35px;
+    margin-top: -35px;
+    padding: 15px;
     height: auto;
     width: 100%;
+    justify-content: center;
 }
 
 

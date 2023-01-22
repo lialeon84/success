@@ -5,8 +5,9 @@ function Impostor() {
     return (
         <div className="blog-post-intro">
            <h2>Love Thyself</h2>
-           <hr id='impostorHr'></hr>
+           {/* <hr id='impostorHr'></hr> */}
             <div className='imgWrapperthree'>
+                <hr></hr>
               <img src={impostorPic} alt="Myself" className="img-fluidthree"/>
            </div>
 

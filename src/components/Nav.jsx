@@ -18,6 +18,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 const Navig = () =>
+
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
     <Container>

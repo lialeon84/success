@@ -8,6 +8,10 @@ import focus from './img/Focus.png';
 import laptop from './img/laptop.png';
 
 function Home() {
+  // event.preventDefault();
+    
+    
+   
   // function handleClick() { 
   //   let randomNum = Math.floor(Math.random() * 3) + 1;
   //   console.log(randomNum);
@@ -15,7 +19,9 @@ function Home() {
   //   alert(`Computer number: ${randomNum}, Your guess: ${userInput}`);
   // }
   return (
+    
     <>
+    
     <br></br>
     <section>
       <div className="blog-post-intro">
