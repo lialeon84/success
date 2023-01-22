@@ -57,37 +57,31 @@
 
 pre {
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-    clear: both;
+    /* clear: both; */
     color: #fff;
     background: #7a769b;
-    padding: 0;
-    -moz-tab-size: 2;
+    width: auto;
+    /* padding: 0; */
+    text-align: left;
+    /* -moz-tab-size: 2;
     -o-tab-size: 2;
-    tab-size: 2;
-    -ms-word-break: normal;
-    word-break: normal;
+    tab-size: 2; */
+    /* -ms-word-break: normal;
+    word-break: normal;  
     -webkit-hyphens: none;
     -ms-hyphens: none;
-    hyphens: none;
-    position: relative;
+    hyphens: none; */
+    /* position: relative; */
+    display: block;
     line-height: 28px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
 }
 
-javascript,
-.language-scss {
-    color: #f5d67b;
-}
-
-pre code {
+code {
     font-size: 11px;
     padding: 15px 20px 10px 14px;
-}
-
-code {
-    font-size: inherit;
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
@@ -193,7 +187,7 @@ h6 {
 
 p {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     border: 1px solid transparent;
     color: #555;

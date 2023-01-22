@@ -26,7 +26,7 @@ function Home() {
     <section>
       <div className="blog-post-intro">
          <div className='imgWrappertwo'>
-              <img src={homepic} alt="Myself" className="img-fluidtwo"/>
+              <img src={homepic} alt="HomePic" className="img-fluidtwo"/>
            </div>
          </div>
      
@@ -42,7 +42,7 @@ function Home() {
     <section>
            <div className="blog-post-intro">
              <div className='imgWrappertwo'>
-              <img src={laptop} alt="Myself" className="img-fluidtwo"/>
+              <img src={laptop} alt="Laptop" className="img-fluidtwo"/>
              </div>
            </div> 
          
@@ -58,7 +58,7 @@ function Home() {
     <section>
            <div className="blog-post-intro">
              <div className='imgWrappertwo'>
-              <img src={webdev} alt="Myself" className="img-fluidtwo"/>
+              <img src={webdev} alt="Web" className="img-fluidtwo"/>
              </div>
            </div> 
          
@@ -74,7 +74,7 @@ function Home() {
     <section>
            <div className="blog-post-intro">
              <div className='imgWrappertwo'>
-              <img src={tech} alt="Myself" className="img-fluidtwo"/>
+              <img src={tech} alt="Tech" className="img-fluidtwo"/>
              </div>
            </div> 
          
@@ -90,7 +90,7 @@ function Home() {
     <section>
            <div className="blog-post-intro">
              <div className='imgWrappertwo'>
-              <img src={focus} alt="Myself" className="img-fluidtwo"/>
+              <img src={focus} alt="Focus" className="img-fluidtwo"/>
              </div>
            </div> 
          
@@ -106,7 +106,7 @@ function Home() {
     <section>
            <div className="blog-post-intro">
              <div className='imgWrappertwo'>
-              <img src={servicespic} alt="Myself" className="img-fluidtwo"/>
+              <img src={servicespic} alt="Service" className="img-fluidtwo"/>
              </div>
            </div> 
          

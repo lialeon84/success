@@ -10,7 +10,7 @@ function Learning() {
            
             <div className='imgWrapperthree'>
                 <hr></hr>
-              <img src={brainPic} alt="Myself" className="img-fluidthree"/>
+              <img src={brainPic} alt="Brain" className="img-fluidthree"/>
            </div>
            
             <div className="wrapper">

@@ -6,13 +6,12 @@ function ReactPage() {
             
             <h2>How to get Started with React</h2>
             
-            <div className='imgWrapperthree'>
-            <hr></hr> 
-              <img src={reactpic} alt="Myself" className="img-fluidthree"/> 
-              <div id='pictext'>
-              <h3 id='pictexttwo'>React</h3>
-              </div>
-           </div>
+             <div className='imgWrapperthree'>
+                    <hr></hr> 
+                    <img src={reactpic} alt="React" className="img-fluidthree"/> 
+                    <div id='pictext'><h3 id='pictexttwo'>React</h3></div> 
+            </div>
+           
 
             
             <div className="wrapper">
@@ -24,7 +23,7 @@ function ReactPage() {
                </p>
 
                 <p>Before starting your first React project make sure you have Visual Studio Code install on your computer. If you don't have it install yet please 
-                    visit the link provided to install VS Code. <a href={"https://code.visualstudio.com/"} target="_blank" id="link">Download VS Code</a>
+                    visit the link provided to install VS Code. <a href={"https://code.visualstudio.com/"} target="_blank">Download VS Code</a>
                 </p> 
               
                 <p>Once you have VS Code installed you can start with React. </p>
@@ -76,12 +75,14 @@ function ReactPage() {
                         npx create-react-app nameYourReactProjectHere
                      </code>
                     </pre> 
+
                     <p>In the (nameYourReactProjectHere) you can name your React project whatever you like (for example, I named mine coderchic) 
                          and than press enter to create. This might take a few minutes to create as it is loading all of the React files. 
                          Once it has finished downloading you can cd into your React project where you'll be able to see all of the folders and files.
                     </p>
 
                     <p>Let's cd into your React project. In your terminal type the following command:</p>
+
                     <pre rel="JavaScript" data-line> 
                      <code markup="tt">
                         cd yourReactProjectNameHere
@@ -93,33 +94,39 @@ function ReactPage() {
                      </p>
 
                     <p>To start your React app simply type the following command in your terminal:</p>
+
                     <pre rel="JavaScript" data-line> 
                     <code markup="tt">
                         npm start
                     </code>
                     </pre> 
-                    <p>It will open a web browser with the React logo.
-                    </p>
+
+                    <p>It will open a web browser with the React logo. </p>
 
                     <p>To quit your React app simply click in your terminal with the following:</p>
+
                     <pre rel="JavaScript" data-line> 
                     <code markup="tt">
                         control c
                     </code>
                     </pre>
+
                     <p> It will stop your React app and you can close the browser. To restart your React app use the 
                     same command we used earlier above to start it. To save changes to your files, on your keyboard press: </p>
+
                     <pre rel="JavaScript" data-line> 
                     <code markup="tt">
                         control s
                     </code>
                     </pre> 
+                    
                     <p>in your VS Code and you're all set. These are a few of the basic steps to start your first React project. To learn more 
-                        check out my YouTube Channel <a href={"https://www.youtube.com/@coderchic/featured"} target="_blank" id="link">CodeChic</a>
+                        check out my YouTube Channel <a href={"https://www.youtube.com/@coderchic/featured"} target="_blank">CodeChic</a>
                     </p> 
                     <hr></hr>
             </div>
         </div>
+    
     );
 };
 

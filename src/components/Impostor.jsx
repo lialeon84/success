@@ -8,7 +8,7 @@ function Impostor() {
            {/* <hr id='impostorHr'></hr> */}
             <div className='imgWrapperthree'>
                 <hr></hr>
-              <img src={impostorPic} alt="Myself" className="img-fluidthree"/>
+              <img src={impostorPic} alt="Impostor" className="img-fluidthree"/>
            </div>
 
             <div className="wrapper">
