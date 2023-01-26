@@ -1,6 +1,6 @@
 
 import React from 'react'
-import myPic from './img/myself.jpg'
+import myPic from './img/myself.jpeg'
  
 function About() { 
   return (
