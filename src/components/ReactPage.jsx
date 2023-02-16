@@ -120,9 +120,9 @@ function ReactPage() {
                     </code>
                     </pre> 
                     
-                    <p>in your VS Code and you're all set. These are a few of the basic steps to start your first React project. To learn more 
+                    {/* <p>in your VS Code and you're all set. These are a few of the basic steps to start your first React project. To learn more 
                         check out my YouTube Channel <a href={"https://www.youtube.com/@coderchic/featured"} target="_blank">CodeChic</a>
-                    </p> 
+                    </p>  */}
                     <hr></hr>
             </div>
         </div>
