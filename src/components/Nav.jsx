@@ -5,7 +5,7 @@ import Contact from './Contact';
 import Impostor from './Impostor';
 import Learning from './Learning';
 import ReactPage from './ReactPage';
-
+import Gadgets from './Gadgets';
 
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
@@ -40,10 +40,12 @@ const Navig = () =>
         <Nav.Link id="navLinks" href="/">Home</Nav.Link>
         {/* <Nav.Link href="/sm30days">30Days</Nav.Link> */}
         <Nav.Link id="navLinks" href="/impostor">Impostor</Nav.Link>
-        <Nav.Link id="navLinks" href="/learning">Learning</Nav.Link>
+        {/* <Nav.Link id="navLinks" href="/#"></Nav.Link> */}
         <Nav.Link id="navLinks" href="/reactpage">React</Nav.Link>
+        <Nav.Link id="navLinks" href="/gadgets">Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item id="dropDown" href="/sm30days">30Days</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/learning">Learn</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/sm30days">Detox</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about">About</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
@@ -63,6 +65,7 @@ const Navig = () =>
     <Route path="/reactpage" element={<ReactPage/>} />
     <Route path="/impostor" element={<Impostor/>} />
     <Route path="/learning" element={<Learning/>} />
+    <Route path="/gadgets" element={<Gadgets/>} />
     <Route path="/sm30days" element={<Sm30days/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />

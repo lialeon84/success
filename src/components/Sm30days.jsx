@@ -4,7 +4,7 @@ function Sm30days() {
     return (
         <div className="blog-post-intro">
             
-            <h2>30 Day's Social Media Detox</h2>
+            <h2>Social Media Detox</h2>
             {/* <hr id='hr30Days'></hr> */}
             <div className='imgWrapperthree'>
                 <hr></hr>
@@ -13,7 +13,7 @@ function Sm30days() {
 
             
             <div className="wrapper">
-            <h5 className="text-uppercase">How it felt being off social media</h5>
+            <h5 className="text-uppercase">How it felt being off social media for 30 days</h5>
             <hr></hr>
                 <p>What did I notice on my first few days without my social media apps?! Well, let me tell you something, time went by slower then expected. 
                    There wasn't an app distracting me. I didn't have my apps filling in those gaps of my day, consuming my time.

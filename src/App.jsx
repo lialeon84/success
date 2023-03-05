@@ -1,9 +1,10 @@
 
 import Footer from './components/Footer';
-import Navgi from './components/Nav';
+import Navi from './components/Nav';
 import Header from './components/Header';
 import * as React from "react";
 import './App.css';
+import './gadgets.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,7 +17,7 @@ function App() {
     <div className='App'>
        
          <Header />
-         <Navgi />
+         <Navi />
          <Footer />
       </div>
      
