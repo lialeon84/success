@@ -16,9 +16,9 @@ function About() {
     <hr></hr>
         <p>I am Rose! A Full-Stack Web Developer. I have serious passion for animations and creating intuitive dynamic user experiences.
         </p>
-        <p> Learning has always been a passion of mine. That is what makes programming and software development such a great field to be in. 
-          There are always new things to learn and a lot of ways to approach it. The programming world is all about sharing what we know and working together to solve problems. 
-          Creating something completely new and interesting from scratch and finding ways to make it easy for users to enjoy.
+        <p>Programming and software development are perfect fields for me since there's 
+          always something new to learn and many ways to approach a problem. I love the idea of collaborating with others to create something new 
+          and exciting from the ground up, and finding ways to make it user-friendly. I'm eager to take the next step in my software developer career.
         </p>
         <p> Building quality websites and applications with C# .Net, HTML, CSS3, JavaScript and React. Optimizing the performance of user-centric high-impact websites. 
           Analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.

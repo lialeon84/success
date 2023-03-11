@@ -12,7 +12,7 @@ import businessBook from "./components/img/mindbook.jpeg";
 
 import mugWarmer from "./components/img/mugwarmer.jpeg";
 import keyCap from "./components/img/keycap.jpeg";
-import starKeyCap from "./components/img/starkeycap.JPG";
+import starKeyCap from "./components/img/starkeycap.jpeg";
 import phoneStand from "./components/img/phonestand.jpeg";
 import miniTrash from "./components/img/minitrash.jpeg";
 
@@ -32,6 +32,29 @@ import atomic from "./components/img/atomicbook.jpeg";
 import wheel from "./components/img/wheels.jpeg";
 import iphoneTV from "./components/img/iphonetvadapt.jpeg";
 import petvac from "./components/img/petvac.jpeg";
+
+import coffeeMaker from "./components/img/coffeemaker.jpeg";
+import watchHolder from "./components/img/watchholder.jpeg";
+import headsetHolder from "./components/img/headsetholder.jpeg";
+import deskMat from "./components/img/deskmat.jpeg";
+import solarCharger from "./components/img/solarcharger.jpeg";
+
+import vrMask from "./components/img/vrmask.jpeg";
+import smallKeyboard from "./components/img/smallkeyboard.jpeg";
+import mechanical from "./components/img/mechanicalkeyboard.jpeg";
+import monitorStand from "./components/img/monitorstand.jpeg";
+import travelBag from "./components/img/travelcompressbag.jpeg";
+
+import monitorMount from "./components/img/monitorMount.jpeg";
+import vga from "./components/img/vga.jpeg";
+import capPuller from "./components/img/KeycapPuller.jpeg";
+import displayPort from "./components/img/DisplayPortDPtoVGA .jpeg";
+import airpodHolder from "./components/img/DanceCatAirpodHolder.jpeg";
+
+import gamingMouse from "./components/img/GamingMouseWired.jpeg";
+import robotVacuum from "./components/img/RobotVacuum.jpeg";
+import smartLights from "./components/img/SmartLight.jpeg";
+import vLaptopStand from "./components/img/VerticalLaptopStand.jpeg";
 
 export const PRODUCTS = [
 
@@ -237,5 +260,138 @@ export const PRODUCTS = [
         description: "Don't struggle with pet hair. You have more important things to do like coding.",
         image: petvac,
         webPage: "https://amzn.to/41OWdd6",
+    },
+    {
+        id: 30,
+        productName: "Coffee Maker",
+        description: "Gotta stay hydrated",
+        image: coffeeMaker,
+        webPage: "https://amzn.to/3mBKRJ8"
+    },
+    {
+        id: 31,
+        productName: "2 in 1 Charging Station",
+        description: "Charge your Apple Watch and AirPods Pro",
+        image: watchHolder,
+        webPage: "https://amzn.to/3yCJmwZ",
+    },
+    {
+        id: 32,
+        productName: "RGB Headset Stand",
+        description: "Keep it organized",
+        image: headsetHolder,
+        webPage: "https://amzn.to/3LdmEmH",
+    },
+    {
+        id: 33,
+        productName: "Large Desk Mat",
+        description: "Keep your desk protected from all your snacks.",
+        image: deskMat,
+        webPage: "https://amzn.to/3YCmrMZ",
+    },
+    {
+        id: 34,
+        productName: "Solar Charger",
+        description: "For those moments when we need our phone the most.",
+        image: solarCharger,
+        webPage: "https://amzn.to/3YzTZLK"
+    },
+    {
+        id: 35,
+        productName: "VR Sweat Band",
+        description: "Can't kill the enemy with sweat rolling down your eyes.",
+        image: vrMask,
+        webPage: "https://amzn.to/3To7ldf",
+    },
+    {
+        id: 36,
+        productName: "Wireless Gaming Keyboard",
+        description: "Code from anywhere.",
+        image: smallKeyboard,
+        webPage: "https://amzn.to/3l4AqNR",
+    },
+    {
+        id: 37,
+        productName: "Mechanical Keyboard",
+        description: "Tell me you're a Developer with out telling me you're a Developer.",
+        image: mechanical,
+        webPage: "https://amzn.to/424wy00",
+    },
+    {
+        id: 38,
+        productName: "Dual Monitor Stand",
+        description: "An eye level view to find the bug that got away.",
+        image: monitorStand,
+        webPage: "https://amzn.to/3Jxnppz"
+    },
+    {
+        id: 39,
+        productName: "Compression Bags for Travel",
+        description: "Pack as much as you want and still have room for those bugs.",
+        image: travelBag,
+        webPage: "https://amzn.to/3LhcC45",
+    },
+    {
+        id: 40,
+        productName: "Monitor Desk Mount",
+        description: "A better way to code.",
+        image: monitorMount,
+        webPage: "https://amzn.to/3YGHpKw",
+    },
+    {
+        id: 41,
+        productName: "VGA Cable",
+        description: "Connect your monitors with your laptop.",
+        image: vga,
+        webPage: "https://amzn.to/3yv9MAL",
+    },
+    {
+        id: 42,
+        productName: "Keycap Puller",
+        description: "Change your keyboard keycap.",
+        image: capPuller,
+        webPage: "https://amzn.to/3mMbF9R"
+    },
+    {
+        id: 43,
+        productName: "DisplayPort (DP) to VGA",
+        description: "Great for Dell dock",
+        image: displayPort,
+        webPage: "https://amzn.to/404BYXf",
+    },
+    {
+        id: 44,
+        productName: "Cat Airpod Holder Headphone",
+        description: "Need some sass with your code?",
+        image: airpodHolder,
+        webPage: "https://amzn.to/3l4jzef",
+    },
+    {
+        id: 45,
+        productName: "Computer Mouse with RGB",
+        description: "Big and colorful just like your code.",
+        image: gamingMouse,
+        webPage: "https://amzn.to/3mEkTVn",
+    },
+    {
+        id: 46,
+        productName: "Robot Vacuum",
+        description: "Don't worry about cleaning. Let the robot do it.",
+        image: robotVacuum,
+        webPage: "https://amzn.to/3Fjz3Sy"
+    },
+    {
+        id: 47,
+        productName: "Smart Light Bulbs",
+        description: "Alexa, it's party time!",
+        image: smartLights,
+        webPage: "https://amzn.to/3yvaeyX",
+    },
+    {
+        id: 48,
+        productName: "Vertical Laptop Stand",
+        description: "When you're not debugging those bugs are resting.",
+        image: vLaptopStand,
+        webPage: "https://amzn.to/4277hCw",
     },
 ]
