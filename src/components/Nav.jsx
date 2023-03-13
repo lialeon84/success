@@ -45,7 +45,7 @@ const Navig = () =>
         <Nav.Link id="navLinks" href="/gadgets">Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item id="dropDown" href="/learning">Learn</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/sm30days">Detox</NavDropdown.Item>
+        {/* <NavDropdown.Item id="dropDown" href="/sm30days">Detox</NavDropdown.Item> */}
         <NavDropdown.Item id="dropDown" href="/about">About</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
@@ -66,7 +66,7 @@ const Navig = () =>
     <Route path="/impostor" element={<Impostor/>} />
     <Route path="/learning" element={<Learning/>} />
     <Route path="/gadgets" element={<Gadgets/>} />
-    <Route path="/sm30days" element={<Sm30days/>} />
+    {/* <Route path="/sm30days" element={<Sm30days/>} /> */}
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
     
