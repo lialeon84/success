@@ -14,11 +14,37 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 // import { ReactComponent as Logo } from "./img/logo4.svg";
+import { useNavigate } from 'react-router-dom';
 
 
+const Navig = () => {
+const navigate = useNavigate();
 
-const Navig = () =>
-
+const handleLinkClickHome = (e) => {
+  e.preventDefault();
+  navigate('/');
+}
+const handleLinkClickImpostor = (e) => {
+  e.preventDefault();
+  navigate('/impostor');
+}
+const handleLinkClickReactt = (e) => {
+  e.preventDefault();
+  navigate('/reactpage');
+}
+const handleLinkClickGadgets = (e) => {
+  e.preventDefault();
+  navigate('/gadgets');
+}
+const handleLinkClickLearn = (e) => {
+  e.preventDefault();
+  navigate('/learning');
+}
+const handleLinkClickAbout = (e) => {
+  e.preventDefault();
+  navigate('/about');
+}
+ return(
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
     <Container>
@@ -37,16 +63,16 @@ const Navig = () =>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-        <Nav.Link id="navLinks" href="/">Home</Nav.Link>
+        <Nav.Link id="navLinks" href="/" onClick={handleLinkClickHome}>Home</Nav.Link>
         {/* <Nav.Link href="/sm30days">30Days</Nav.Link> */}
-        <Nav.Link id="navLinks" href="/impostor">Impostor</Nav.Link>
+        <Nav.Link id="navLinks" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</Nav.Link>
         {/* <Nav.Link id="navLinks" href="/#"></Nav.Link> */}
-        <Nav.Link id="navLinks" href="/reactpage">React</Nav.Link>
-        <Nav.Link id="navLinks" href="/gadgets">Gadgets</Nav.Link>
+        <Nav.Link id="navLinks" href="/reactpage" onClick={handleLinkClickReactt}>React</Nav.Link>
+        <Nav.Link id="navLinks" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item id="dropDown" href="/learning">Learn</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Learn</NavDropdown.Item>
         {/* <NavDropdown.Item id="dropDown" href="/sm30days">Detox</NavDropdown.Item> */}
-        <NavDropdown.Item id="dropDown" href="/about">About</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
         </NavDropdown.Item>
@@ -73,6 +99,7 @@ const Navig = () =>
   </Routes>
   
   </>
-
+  )
+}
 
 export default Navig;
