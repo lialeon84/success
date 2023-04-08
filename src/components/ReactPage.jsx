@@ -6,13 +6,12 @@ function ReactPage() {
             
             <h2>How to get Started with React</h2>
             
-             <div className='imgWrapperthree'>
+             <div className='imgWrapperthree '>
                     <hr></hr> 
-                    <img src={reactpic} alt="React" className="img-fluidthree"/> 
-                    <div id='pictext'><h3 id='pictexttwo'>React</h3></div> 
+                    <img src={reactpic} alt="React" className="img-fluidthree rounded"/> 
+                   
             </div>
            
-
             
             <div className="wrapper">
             <h5 className="text-uppercase">Here are the first few steps to get started</h5>
@@ -23,7 +22,7 @@ function ReactPage() {
                </p>
 
                 <p>Before starting your first React project make sure you have Visual Studio Code install on your computer. If you don't have it install yet please 
-                    visit the link provided to install VS Code. <a href={"https://code.visualstudio.com/"} target="_blank">Download VS Code</a>
+                    visit the link provided to install VS Code. <a href={"https://code.visualstudio.com/"} target="_blank" rel="noreferrer">Download VS Code</a>
                 </p> 
               
                 <p>Once you have VS Code installed you can start with React. </p>

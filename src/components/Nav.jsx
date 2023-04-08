@@ -6,6 +6,7 @@ import Impostor from './Impostor';
 import Learning from './Learning';
 import ReactPage from './ReactPage';
 import Gadgets from './Gadgets';
+import JSFunctions from './JSFunctions'
 
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
@@ -44,6 +45,10 @@ const handleLinkClickAbout = (e) => {
   e.preventDefault();
   navigate('/about');
 }
+const handleLinkClickJSFunctions = (e) => {
+  e.preventDefault();
+  navigate('/js');
+}
  return(
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
@@ -65,13 +70,13 @@ const handleLinkClickAbout = (e) => {
     <Nav className="mr-auto">
         <Nav.Link id="navLinks" href="/" onClick={handleLinkClickHome}>Home</Nav.Link>
         {/* <Nav.Link href="/sm30days">30Days</Nav.Link> */}
-        <Nav.Link id="navLinks" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</Nav.Link>
+        <Nav.Link id="navLinks" href="/js" onClick={handleLinkClickJSFunctions}>JS</Nav.Link>
         {/* <Nav.Link id="navLinks" href="/#"></Nav.Link> */}
         <Nav.Link id="navLinks" href="/reactpage" onClick={handleLinkClickReactt}>React</Nav.Link>
         <Nav.Link id="navLinks" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Learn</NavDropdown.Item>
-        {/* <NavDropdown.Item id="dropDown" href="/sm30days">Detox</NavDropdown.Item> */}
+        <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}> Impostor</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
@@ -92,7 +97,7 @@ const handleLinkClickAbout = (e) => {
     <Route path="/impostor" element={<Impostor/>} />
     <Route path="/learning" element={<Learning/>} />
     <Route path="/gadgets" element={<Gadgets/>} />
-    {/* <Route path="/sm30days" element={<Sm30days/>} /> */}
+    <Route path="/js" element={<JSFunctions/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
     

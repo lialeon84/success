@@ -13,7 +13,7 @@ function Gadgets() {
            
             <div className='imgWrapperthree'>
                 <hr></hr>
-              <img src={TechGadgets} alt="TechGadgets" className="img-fluidthree"/>
+              <img src={TechGadgets} alt="TechGadgets" className="img-fluidthree rounded"/>
            </div>
            
             <div className="products">

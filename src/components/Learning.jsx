@@ -10,7 +10,7 @@ function Learning() {
            
             <div className='imgWrapperthree'>
                 <hr></hr>
-              <img src={brainPic} alt="Brain" className="img-fluidthree"/>
+              <img src={brainPic} alt="Brain" className="img-fluidthree rounded"/>
            </div>
            
             <div className="wrapper">
@@ -45,7 +45,7 @@ function Learning() {
                     focusing."
                 </p><hr></hr>
                 <h6>By: Dr. Terrence Sejnowski</h6>
-                <a href={"https://acrosstraducciones.com/2017/09/06/learning-how-to-learn/"} target="_blank" id="link">Click here to read more about it!</a>
+                <a href={"https://acrosstraducciones.com/2017/09/06/learning-how-to-learn/"} target="_blank" id="link" rel="noreferrer">Click here to read more about it!</a>
             </div>
         </div>
     );

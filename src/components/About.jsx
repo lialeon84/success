@@ -9,7 +9,7 @@ function About() {
    
     <div className='imgWrapper'>
       {/* <div className="img-fluid"></div> */}
-      <img src={myPic} alt="Myself" className="img-fluid"/>
+      <img src={myPic} alt="Myself" className="img-fluid rounded"/>
     </div>
     <div className="wrapper">
     <h2>Who am I?</h2>
