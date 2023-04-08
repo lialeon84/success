@@ -15,7 +15,7 @@ function Gadgets() {
                 <hr></hr>
               <img src={TechGadgets} alt="TechGadgets" className="img-fluidthree rounded"/>
            </div>
-           
+           <h6 className='text-sm'>*Please note the descriptions is humor* </h6>
             <div className="products">
             {PRODUCTS.map((product) => 
                 <Product data={product}/>
