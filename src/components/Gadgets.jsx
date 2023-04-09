@@ -15,7 +15,7 @@ function Gadgets() {
                 <hr></hr>
               <img src={TechGadgets} alt="TechGadgets" className="img-fluidthree rounded"/>
            </div>
-           <h6 className='text-sm'>*Please note the descriptions is humor* </h6>
+           <h6 className='text-sm text-red-800'>*Please take note: some of the product descriptions are for entertainment purposes. To view the full product description, click the Amazon button. </h6>
             <div className="products">
             {PRODUCTS.map((product) => 
                 <Product data={product}/>
