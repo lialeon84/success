@@ -1,12 +1,14 @@
 import About from './About';
 import Home from './Home';
-import Sm30days from './Sm30days';
+//import Sm30days from './Sm30days';
 import Contact from './Contact';
 import Impostor from './Impostor';
 import Learning from './Learning';
 import ReactPage from './ReactPage';
 import Gadgets from './Gadgets';
-import JSFunctions from './JSFunctions'
+import JSFunctions from './JSFunctions';
+import Game from './Game';
+
 
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
@@ -49,6 +51,11 @@ const handleLinkClickJSFunctions = (e) => {
   e.preventDefault();
   navigate('/js');
 }
+const handleLinkClickGame = (e) => {
+  e.preventDefault();
+  navigate('/game');
+}
+
  return(
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
@@ -75,6 +82,7 @@ const handleLinkClickJSFunctions = (e) => {
         <Nav.Link id="navLinks" href="/reactpage" onClick={handleLinkClickReactt}>React</Nav.Link>
         <Nav.Link id="navLinks" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item id="dropDown" href="/tarot" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Learn</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}> Impostor</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About</NavDropdown.Item>
@@ -98,6 +106,7 @@ const handleLinkClickJSFunctions = (e) => {
     <Route path="/learning" element={<Learning/>} />
     <Route path="/gadgets" element={<Gadgets/>} />
     <Route path="/js" element={<JSFunctions/>} />
+    <Route path="/game" element={<Game/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
     

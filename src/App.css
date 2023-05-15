@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 .App-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -22,7 +20,7 @@
 }
 
 .color-nav {
-    box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
+    /* box-shadow: 2px 3px 7px 0px rgb(128, 128, 128); */
     /* background: url("../public/ep_naturalwhite.png") center center repeat; */
     /* border-top: 1px solid #999;
     border-bottom: 1px solid #999; */

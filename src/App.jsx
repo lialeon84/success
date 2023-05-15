@@ -5,6 +5,8 @@ import Header from './components/Header';
 import * as React from "react";
 import './App.css';
 import './gadgets.css';
+//import './game.css';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -61,10 +61,10 @@ function JSpage() {
    
   
 
-    const handleClick = (e) => {
-        e.preventDefault();
+    // const handleClick = (e) => {
+    //     e.preventDefault();
        
-      };
+    //   };
 
 
     return (
