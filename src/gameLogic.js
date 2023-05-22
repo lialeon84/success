@@ -47,12 +47,12 @@ export const steps = [
     },
     {
         id: "YES",
-        message:"Here's the deal",
+        message:"Game coming soon",
         end: true,
     },
     {
         id: "NO",
-        message:"You're funny",
+        message:"Good bye",
         end: true,
     }
 
