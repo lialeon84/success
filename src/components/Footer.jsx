@@ -30,7 +30,7 @@ const Footer = () =>
         </div>
     </div> */}
 
-    <div className="footer-copyright text-center py-3"> My with &#x1F49C; © {year}
+    <div className="footer-copyright text-center py-3"> Made with &#x1F49C; © {year}
         <p className="text-center" id="footerName">Coder Chic </p>
     </div>
 
