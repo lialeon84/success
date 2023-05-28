@@ -1,5 +1,9 @@
 import React from "react"
 
+    var todaysDate = new Date();
+    var year = todaysDate.getFullYear();
+    //console.log(year);
+
 const Footer = () => 
 
 <footer className="page-footer font-small blue pt-4">
@@ -26,7 +30,7 @@ const Footer = () =>
         </div>
     </div> */}
 
-    <div className="footer-copyright text-center py-3">© 2022 Copyright:
+    <div className="footer-copyright text-center py-3"> My with &#x1F49C; © {year}
         <p className="text-center" id="footerName">Coder Chic </p>
     </div>
 
