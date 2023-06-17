@@ -32,7 +32,7 @@ const Footer = () =>
 
     <div className="footer-copyright text-center py-3"> Made with &#x1F49C; © {year}
         <p className="text-center" id="footerName">Coder Chic </p>
-        <p>A single action can have a lasting impact - Rose L.</p>
+        <p className="text-center" id="footerName">A single action can have a lasting impact - Rose L.</p>
     </div>
 
 </footer>
