@@ -7,5 +7,5 @@ var susDateFormat = month + 1 + "/" + day + "/" + year;
 var endDate = "3/21/2023"
 
 if (susDateFormat >= endDate) {
-    console.log("Yes")
+   // console.log("Yes")
 }
