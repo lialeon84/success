@@ -55,6 +55,10 @@ const handleLinkClickGame = (e) => {
   e.preventDefault();
   navigate('/game');
 }
+const handleLinkClickContact = (e) => {
+  e.preventDefault();
+  navigate('/contact');
+}
 
  return(
     <>
@@ -86,6 +90,7 @@ const handleLinkClickGame = (e) => {
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Learn</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}> Impostor</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
         </NavDropdown.Item>
