@@ -8,6 +8,7 @@ import ReactPage from './ReactPage';
 import Gadgets from './Gadgets';
 import JSFunctions from './JSFunctions';
 import Game from './Game';
+import Blog from './Blog';
 
 
 import React from 'react'
@@ -59,6 +60,10 @@ const handleLinkClickContact = (e) => {
   e.preventDefault();
   navigate('/contact');
 }
+const handleLinkClickBlog = (e) => {
+  e.preventDefault();
+  navigate('/blog');
+}
 
  return(
     <>
@@ -89,7 +94,8 @@ const handleLinkClickContact = (e) => {
         <NavDropdown.Item id="dropDown" href="/tarot" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Learn</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}> Impostor</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickBlog}>My Journey</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About Me</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact
@@ -112,6 +118,7 @@ const handleLinkClickContact = (e) => {
     <Route path="/gadgets" element={<Gadgets/>} />
     <Route path="/js" element={<JSFunctions/>} />
     <Route path="/game" element={<Game/>} />
+    <Route path="/blog" element={<Blog/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
     
