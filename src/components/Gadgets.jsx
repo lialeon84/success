@@ -8,7 +8,7 @@ function Gadgets() {
     return (
         <div className="blog-post-intro">
           
-            <h2>Gadgets you may or may not need as a developer</h2>
+            <h2>Essentials for Developers</h2>
            
            
             <div className='imgWrapperthree'>

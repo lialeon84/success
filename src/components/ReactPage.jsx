@@ -4,7 +4,7 @@ function ReactPage() {
     return (
         <div className="blog-post-intro">
             
-            <h2>How to get Started with React</h2>
+            <h2>Getting Started with React</h2>
             
              <div className='imgWrapperthree '>
                     <hr></hr> 
@@ -14,7 +14,7 @@ function ReactPage() {
            
             
             <div className="wrapper">
-            <h5 className="text-uppercase">Here are the first few steps to get started</h5>
+            <h5 className="text-uppercase">A Beginner's Guide to Launching Your React Journey</h5>
             <hr></hr>
             
             <p>It's very important to note that you should already have some basic knowledge of HTML, CSS and JavaScript.

@@ -1,6 +1,6 @@
 import About from './About';
 import Home from './Home';
-//import Sm30days from './Sm30days';
+import Sm30days from './Sm30days';
 import Contact from './Contact';
 import Impostor from './Impostor';
 import Learning from './Learning';
@@ -64,6 +64,10 @@ const handleLinkClickBlog = (e) => {
   e.preventDefault();
   navigate('/blog');
 }
+const handleLinkClickDetox = (e) => {
+  e.preventDefault();
+  navigate('/detox');
+}
 
  return(
     <>
@@ -93,7 +97,8 @@ const handleLinkClickBlog = (e) => {
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item id="dropDown" href="/tarot" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}> Impostor</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickBlog}>My Journey</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About Me</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
@@ -118,6 +123,7 @@ const handleLinkClickBlog = (e) => {
     <Route path="/gadgets" element={<Gadgets/>} />
     <Route path="/js" element={<JSFunctions/>} />
     <Route path="/game" element={<Game/>} />
+    <Route path="/detox" element={<Sm30days/>} />
     <Route path="/blog" element={<Blog/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />

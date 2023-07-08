@@ -5,7 +5,7 @@ function blog() {
     return (
         <div className="blog-post-intro">
             
-            <h2>MY JOURNEY</h2>
+            <h2 className="text-uppercase">My Transformational Journey</h2>
             {/* <hr></hr> */}
             <div className='imgWrapperthree'>
                <br></br>
@@ -14,7 +14,7 @@ function blog() {
 
             
             <div className="wrapper">
-            <h5 className="text-uppercase">How it all started</h5>
+            <h5 className="text-uppercase">Discovering Growth and Personal Evolution</h5>
             <hr></hr>
 
             <small className='italic'>"Engineers like to solve problems. If there are no problems handily available, they will create their own problems." ― Scott Adams</small>

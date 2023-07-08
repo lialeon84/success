@@ -270,6 +270,7 @@ p {
 }
 
 .img-fluidthree {
+    border-radius: 1%!important;
     max-width: 100%;
     height: auto;
     vertical-align: middle;

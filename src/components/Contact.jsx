@@ -62,7 +62,7 @@ const NameForm = () => {
      <h2 className='text-shadow-fuchsia-600 uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00DBDE] to-[#FC00FF]'>
                 Contact us</h2>
            
-                {/* <hr class="border-25 h-1 bg-fuchsia-600 " /> */}
+               
 
     <div className='email'>
       <Form onSubmit={handleOnSubmit} >

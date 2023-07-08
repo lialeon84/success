@@ -4,7 +4,7 @@ function Sm30days() {
     return (
         <div className="blog-post-intro">
             
-            <h2>Social Media Detox</h2>
+            <h2>Embarking on a Social Media Detox</h2>
             {/* <hr id='hr30Days'></hr> */}
             <div className='imgWrapperthree'>
                 <hr></hr>
@@ -13,32 +13,34 @@ function Sm30days() {
 
             
             <div className="wrapper">
-            <h5 className="text-uppercase">How it felt being off social media for 30 days</h5>
+            <h5 className="text-uppercase">Experiencing 30 Days Without Social Media: Reflections and Insights</h5>
             <hr></hr>
-                <p>What did I notice on my first few days without my social media apps?! Well, let me tell you something, time went by slower then expected. 
-                   There wasn't an app distracting me. I didn't have my apps filling in those gaps of my day, consuming my time.
-                   I felt a sense of emptiness and a sense of urgency to check Twitter, Instagram, Facebook, LinkedIn and/or TikTok as if I was
-                   missing out on something important.</p>
+                <p>Discovering life without my social media apps in those initial days was an eye-opening experience. 
+                    Surprisingly, time seemed to pass more slowly without the constant distraction of those apps. 
+                    The void created by their absence left me with a sense of emptiness and an urgency to check platforms like Twitter, 
+                    Instagram, Facebook, LinkedIn, and TikTok, fearing that I might miss out on something significant.</p>
                    <br></br>
-                    <p>So, what did I do to stop it? To stop the feeling of emptiness and urgency? The way I accomplished it was by replacing my social media apps 
-                   with more productive ones. So, when my funny brain would say, Oh! I need to click there! On that spot, where I alway click and entertainment magically pops up! 
-                   It would instead be clicking on a painting app or a book app. I tricked my funny brain into working for entertainment.</p>
+                    <p>How did I combat that feeling as if I was missing out? The solution lay in replacing my social media apps 
+                        with more productive alternatives. Whenever my impulse-driven mind craved the familiar entertainment, 
+                        I redirected it towards engaging painting or book apps. By cleverly tricking my own mind, I could obtain 
+                        entertainment while focusing on more enriching activities.</p>
                    <br></br>
-                <p> By doing so, it helped my auto-drive brain alleviate the empty feeling of not having 
-                    my usual social media apps there and distract it from the "urgency".
-                    Now, my attention was going on things that I had procrastinated on. For example, I read books that were on my waiting list 
-                    and some that were collecting dust on my bookshelf. I listen to audio books I left half way and 
-                    I picked up on a new class. As well as, I was able to really focus on my coding projects.
+                <p> This strategy helped my automatic response system ease the emptiness I felt without my usual social media apps 
+                    and diverted it away from the perpetual "urgency." Consequently, my attention was redirected towards tasks I had 
+                    procrastinated on. I finally had the opportunity to dive into the books that had long awaited my attention, 
+                    including those collecting dust on my bookshelf. I resumed half-finished audio books and even embarked on new classes. 
+                    Additionally, my coding projects received my undivided focus.
                 </p> <br></br>
-                <p> The less time I spent on social media the more productive and accomplished I felt. I wasn't pulled into a hundred 
-                different distracting directions with every notification calling my attention. I didn't feel over extended. 
-                I didn't have to see or hear bad news every minute of the day. I didn't have to pressure myself 
-                to share parts of my day. I wasn't being criticized or attacked for sharing my thoughts. Time was about me 
-                and about feeling centered.
+                <p> As I reduced my time spent on social media, I experienced a boost in productivity and a profound sense of accomplishment. 
+                    Freed from the constant pull of notifications demanding my attention in a hundred different directions, I no longer felt 
+                    overwhelmed. I could shield myself from the incessant flow of negative news. The pressure to share every moment of my day 
+                    dissipated, as did the fear of criticism or attack for expressing my thoughts. Time became about my personal well-being and 
+                    finding inner balance.
                 </p> <br></br>
-                <p> I had time to focus and really enjoy my time. To really enjoy that delicious cup of coffee while reading my book in the morning. 
-                It was about me and preserving my energy. Going forward, I will be more prudent 
-                with my time and how I give out my energy. 
+                <p> I rediscovered the joy of focusing on activities and savoring moments. I could truly relish that delightful cup 
+                    of morning coffee while immersing myself in a captivating book. It became a time for self-care and preserving my 
+                    energy. Going forward, I am determined to be more mindful of how I allocate my time and distribute my energy, 
+                    ensuring that I prioritize activities that align with my well-being and personal growth. 
                 </p> <hr></hr>
                 <h6>By: Rose L.</h6>
             </div>

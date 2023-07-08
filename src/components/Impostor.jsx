@@ -4,7 +4,7 @@ function Impostor() {
      
     return (
         <div className="blog-post-intro">
-           <h2>Love Thyself</h2>
+           <h2>Unleashing Your Inner Potential</h2>
            {/* <hr id='impostorHr'></hr> */}
             <div className='imgWrapperthree'>
                 <hr></hr>
@@ -12,7 +12,7 @@ function Impostor() {
            </div>
 
             <div className="wrapper">
-            <h5 className="text-uppercase">How to believe in yourself</h5>
+            <h5 className="text-uppercase">Empowering Personal Growth and Fulfillment</h5>
             <hr></hr> 
                 <p>In today's fast-paced society, the pressure to achieve success can sometimes lead us to go overboard. 
                     This constant pressure often blurs the lines of healthy boundaries. We push ourselves excessively, 

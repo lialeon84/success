@@ -5,7 +5,7 @@ function Learning() {
     return (
         <div className="blog-post-intro">
             {/* <h2>Why I love front-end web development</h2> */}
-            <h2>The Way The Brain Learns</h2>
+            <h2>Decoding the Brain's Learning Process</h2>
             {/* <hr id='learningHr'></hr> */}
            
             <div className='imgWrapperthree'>
@@ -15,7 +15,7 @@ function Learning() {
            
             <div className="wrapper">
             
-            <h5 className="text-uppercase">What to do when you're stuck in overthinking</h5>
+            <h5 className="text-uppercase">Understanding How We Absorb and Retain Information</h5>
              <hr></hr>
                 <p>In this insightful article (Desiré, 2017), one valuable lesson I learned is how to deal with overthinking effectively. 
                     The author introduces the concept of "Focused and Diffuse Thinking" as a practical approach. 
