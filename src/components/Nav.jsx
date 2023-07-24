@@ -9,7 +9,8 @@ import Gadgets from './Gadgets';
 import JSFunctions from './JSFunctions';
 import Game from './Game';
 import Blog from './Blog';
-
+import AmazonSub from './AmazonSubs';
+import Deals from './Deals';
 
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
@@ -69,6 +70,16 @@ const handleLinkClickDetox = (e) => {
   navigate('/detox');
 }
 
+const handleLinkClickAmazon = (e) => {
+  e.preventDefault();
+  navigate('/amazon');
+}
+
+const handleLinkClickDeals = (e) => {
+  e.preventDefault();
+  navigate('/deals');
+}
+
  return(
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
@@ -96,6 +107,8 @@ const handleLinkClickDetox = (e) => {
         <Nav.Link id="navLinks" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item id="dropDown" href="/tarot" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickAmazon}>Amazon Chart</NavDropdown.Item>
+        <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickDeals}>Amazon Deals</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item>
@@ -103,7 +116,7 @@ const handleLinkClickDetox = (e) => {
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About Me</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
-        Contact
+        Contact 
         </NavDropdown.Item>
         <NavDropdown.Item href="/#something">Something</NavDropdown.Item>
         <NavDropdown.Divider />
@@ -123,6 +136,8 @@ const handleLinkClickDetox = (e) => {
     <Route path="/gadgets" element={<Gadgets/>} />
     <Route path="/js" element={<JSFunctions/>} />
     <Route path="/game" element={<Game/>} />
+    <Route path="/amazon" element={<AmazonSub/>} />
+    <Route path="/deals" element={<Deals/>} />
     <Route path="/detox" element={<Sm30days/>} />
     <Route path="/blog" element={<Blog/>} />
     <Route path="/about" element={<About/>} />

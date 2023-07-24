@@ -20,12 +20,16 @@
 }
 
 .gadgets img {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 200px;
     /* height: 200px; */
 }
 
 .gadgets .description {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .gadgets:hover {
@@ -42,6 +46,10 @@
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 15px;
+   
+  
+    /* position: absolute; Add absolute positioning */
+    /* bottom: 10px;  */
 }
 
 .addToCartBttn:hover {
