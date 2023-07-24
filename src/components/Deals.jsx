@@ -5,7 +5,7 @@ function Deals() {
 
  const getDeals = async () => {
     try {
-   const res = await fetch('https://coderchic.com/deals', {method: 'GET'})
+   const res = await fetch('/deals', {method: 'GET'})
    const data = await res.json();
     //   .then(response => response.json())
     //   .then(data => {
