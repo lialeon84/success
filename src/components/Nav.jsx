@@ -86,7 +86,7 @@ const handleLinkClickDeals = (e) => {
     <Container>
       <Navbar.Brand id="navLinks" href="/" >
         {/* <div className='coderChic'>
-      <img src={process.env.PUBLIC_URL + './IMG_1980.PNG'} alt="Image" className='logopic'></img> </div> */}
+      <img src={process.env.PUBLIC_URL + './IMG_1978.PNG'} alt="Image" className='logopic'></img> </div> */}
       {/* <Logo
           alt=""
           width="30"
