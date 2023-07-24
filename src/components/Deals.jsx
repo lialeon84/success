@@ -5,7 +5,7 @@ function Deals() {
 
  const getDeals = async () => {
     try {
-   const res = await fetch('/api/server', {method: 'GET'})
+   const res = await fetch('/api/deals', {method: 'GET'})
    const data = await res.json();
     //   .then(response => response.json())
     //   .then(data => {
