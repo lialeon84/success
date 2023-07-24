@@ -5,7 +5,7 @@ function Deals() {
 
  const getDeals = async () => {
     try {
-   const res = await fetch('http://localhost:8080/deals', {method: 'GET'})
+   const res = await fetch('/api/server', {method: 'GET'})
    const data = await res.json();
     //   .then(response => response.json())
     //   .then(data => {
