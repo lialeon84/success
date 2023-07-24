@@ -21,7 +21,7 @@ function Deals() {
     getDeals();
   }, []);
 
-  //console.log(deals);
+  console.log(deals);
   var newArray = [];
 
   for (let i = 0; i < deals.length; i++) {

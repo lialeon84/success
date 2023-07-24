@@ -10,7 +10,7 @@ import JSFunctions from './JSFunctions';
 import Game from './Game';
 import Blog from './Blog';
 import AmazonSub from './AmazonSubs';
-import Deals from './Deals';
+// import Deals from './Deals';
 
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
@@ -75,10 +75,10 @@ const handleLinkClickAmazon = (e) => {
   navigate('/amazon');
 }
 
-const handleLinkClickDeals = (e) => {
-  e.preventDefault();
-  navigate('/deals');
-}
+// const handleLinkClickDeals = (e) => {
+//   e.preventDefault();
+//   navigate('/deals');
+// }
 
  return(
     <>
@@ -108,7 +108,7 @@ const handleLinkClickDeals = (e) => {
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item id="dropDown" href="/tarot" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickAmazon}>Amazon Chart</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickDeals}>Amazon Deals</NavDropdown.Item>
+        {/* <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickDeals}>Amazon Deals</NavDropdown.Item> */}
         <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item>
         <NavDropdown.Item id="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item>
@@ -137,7 +137,7 @@ const handleLinkClickDeals = (e) => {
     <Route path="/js" element={<JSFunctions/>} />
     <Route path="/game" element={<Game/>} />
     <Route path="/amazon" element={<AmazonSub/>} />
-    <Route path="/deals" element={<Deals/>} />
+    {/* <Route path="/deals" element={<Deals/>} /> */}
     <Route path="/detox" element={<Sm30days/>} />
     <Route path="/blog" element={<Blog/>} />
     <Route path="/about" element={<About/>} />
