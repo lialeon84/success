@@ -2,7 +2,7 @@ import React from 'react'
 import reactpic from './img/react.png'
 function ReactPage() {
     return (
-        <div className="blog-post-intro">
+        <div className="blog-post-intro ">
             
             <h2>Getting Started with React</h2>
             

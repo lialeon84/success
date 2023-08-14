@@ -7,8 +7,6 @@ import { SUBSCRIPTIONS } from '../amazonsubs'
 function AmazonSubs() {
   
 
-    // var  = _.merge(_.keyBy(people, 'user'), _.keyBy(pets, 'user'))
-    // var valuesOf = _.values(merged)
    
   
         var newArray = [];
@@ -32,7 +30,7 @@ function AmazonSubs() {
                     //dateJS.setDate(dateJS.getDate() + 2); //adds 2 days to the day.
                  var delivery2Weeks = dateJS;
                  newArray.push({ type: 'deliveryWeeks', deliveryMonths: delivery2Weeks });
-                 SUBSCRIPTIONS[i].deliveryMonths = delivery2Weeks.toLocaleDateString();;
+                 SUBSCRIPTIONS[i].deliveryMonths = delivery2Weeks.toLocaleDateString();
                  //console.log("deliveryMonth: ", delivery2Weeks.toLocaleDateString());
                     //var deliveryYear = dateJS.getFullYear();
             

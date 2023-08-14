@@ -6,7 +6,7 @@ import React from "react"
 
 const Footer = () => 
 
-<footer className="page-footer font-small blue pt-4">
+<footer className="page-footer bg-custom-purple">
     {/* <div className="container-fluid text-center text-md-left">
         <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
@@ -30,9 +30,12 @@ const Footer = () =>
         </div>
     </div> */}
 
-    <div className="footer-copyright text-center py-3"> Made with &#x1F49C; © {year}
+    <div className="footer-copyright py-3 bg-custom-purple">
+        
+        <p className="text-center" id="footerName"> Made with &#x1F49C; © {year}</p>
         <p className="text-center" id="footerName">Coder Chic </p>
         <p className="text-center" id="footerName">A single action can have a lasting impact - Rose L.</p>
+        
     </div>
 
 </footer>

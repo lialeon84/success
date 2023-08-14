@@ -1,5 +1,5 @@
 import React from 'react'
-import homepic from './img/Home.png';
+import homepic from './img/stars.jpg';
 import servicespic from './img/Features.png';
 
 import webdev from './img/webdev.png';
@@ -22,17 +22,23 @@ function Home() {
     
     <>
     
-    <br></br>
-    <section>
-      <div className="blog-post-intro">
+    {/* <br></br> */}
+    {/* <section> */}
+      {/* <div className="blog-post-intro"> */}
          <div className='imgWrappertwo'>
               <img src={homepic} alt="HomePic" className="img-fluidtwo"/>
+              <div className="shooting-star"></div>
+              <div className="overlay-text">Hi, I'm Rose | Software Engineer
+              {/* <div className="overlay-texttwo"> */}
+             <p className='text-sm'> "I'm deeply passionate about crafting animations and delivering intuitive, dynamic user experiences. 
+              When I'm not fine-tuning designs or diving into code, you'll find me enjoying a slice of pizza. Let's create something amazing together!" </p>
+                </div>
            </div>
-         </div>
+         {/* </div> */}
      
-    </section>
+    {/* </section> */}
        
-    <br></br>
+    {/* <br></br>
          <hr></hr>
          <div className="wrapper">
           <p className="text">Welcome to our coding, tech, and learning platform! Where we unleash the quirky and practical side of coding. 
@@ -124,7 +130,7 @@ function Home() {
            </div> 
          
     </section>
-    <br></br>
+    <br></br> */}
            {/* <hr></hr>
            <div className="wrapper">
             <p className="text-center">Talk To Us </p>

@@ -10,7 +10,7 @@ import JSFunctions from './JSFunctions';
 import Game from './Game';
 import Blog from './Blog';
 import AmazonSub from './AmazonSubs';
-// import Deals from './Deals';
+import Gallery from './Gallery';
 
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
@@ -75,10 +75,10 @@ const handleLinkClickAmazon = (e) => {
   navigate('/amazon');
 }
 
-// const handleLinkClickDeals = (e) => {
-//   e.preventDefault();
-//   navigate('/deals');
-// }
+const handleLinkClickGallery = (e) => {
+  e.preventDefault();
+  navigate('/gallery');
+}
 
  return(
     <>
@@ -100,21 +100,21 @@ const handleLinkClickAmazon = (e) => {
       <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
         <Nav.Link id="navLinks" href="/" onClick={handleLinkClickHome}>Home</Nav.Link>
-        {/* <Nav.Link href="/sm30days">30Days</Nav.Link> */}
+        <Nav.Link id="navLinks" href="/gallery" onClick={handleLinkClickGallery}>Gallery</Nav.Link>
         <Nav.Link id="navLinks" href="/js" onClick={handleLinkClickJSFunctions}>JS</Nav.Link>
         {/* <Nav.Link id="navLinks" href="/#"></Nav.Link> */}
         <Nav.Link id="navLinks" href="/reactpage" onClick={handleLinkClickReactt}>React</Nav.Link>
         <Nav.Link id="navLinks" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item id="dropDown" href="/tarot" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickAmazon}>Amazon Chart</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/game" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/amazon" onClick={handleLinkClickAmazon}>Amazon Chart</NavDropdown.Item>
         {/* <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickDeals}>Amazon Deals</NavDropdown.Item> */}
-        <NavDropdown.Item id="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickBlog}>My Journey</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickAbout}>About Me</NavDropdown.Item>
-        <NavDropdown.Item id="dropDown" href="/about" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/blog" onClick={handleLinkClickBlog}>My Journey</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/about" onClick={handleLinkClickAbout}>About Me</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/contact" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
         Contact 
         </NavDropdown.Item>
@@ -137,7 +137,7 @@ const handleLinkClickAmazon = (e) => {
     <Route path="/js" element={<JSFunctions/>} />
     <Route path="/game" element={<Game/>} />
     <Route path="/amazon" element={<AmazonSub/>} />
-    {/* <Route path="/deals" element={<Deals/>} /> */}
+    <Route path="/gallery" element={<Gallery/>} />
     <Route path="/detox" element={<Sm30days/>} />
     <Route path="/blog" element={<Blog/>} />
     <Route path="/about" element={<About/>} />
