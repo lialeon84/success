@@ -1,6 +1,10 @@
 import React from 'react'
-import reactpic from './img/react.png'
+import reactpic from './img/react.png';
+import { useNavigate } from 'react-router-dom';
+
 function ReactPage() {
+    const navigate = useNavigate();
+
     return (
         <div className="blog-post-intro ">
             
@@ -123,6 +127,14 @@ function ReactPage() {
                         check out my YouTube Channel <a href={"https://www.youtube.com/@coderchic/featured"} target="_blank">CodeChic</a>
                     </p>  */}
                     <hr></hr>
+
+                    <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/dev'); }}>
+                    Go Back 
+                </button>
+            </div>
+            
             </div>
         </div>
     

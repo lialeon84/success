@@ -1,7 +1,12 @@
 import React from 'react'
 import girljourney from './img/girljourney.jpeg'
-import working from './img/working.jpg'
-function blog() {
+import working from './img/working.jpg';
+import { useNavigate } from 'react-router-dom';
+
+
+function Blog() {
+    const navigate = useNavigate();
+
     return (
         <div className="blog-post-intro">
             
@@ -60,9 +65,16 @@ function blog() {
                     things in this world. 
                 </p> <hr></hr>
                 <h6>By: Rose L.</h6>
+
+                <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/personal'); }}>
+                    Go Back 
+                </button>
+            </div>
             </div>
         </div>
     );
 };
 
-export default blog;
+export default Blog;

@@ -321,7 +321,7 @@ p {
     /* top: 0;
     left: 0; */
     border-radius: 60%;
-    animation: shooting 5s infinite;
+    animation: shooting 2s infinite;
 }
 
 .shooting-star::before {
@@ -476,3 +476,37 @@ p {
     background-clip: text;
     text-transform: uppercase; /* Makes the text uppercase */
 }
+
+.italic {
+    color: #240032;
+}
+
+.parent-of-goBack {
+    display: flex;           
+     /* Makes the container a flex container */
+    justify-content: center;  
+    /* Center children horizontally */
+    align-items: flex-end;    
+    /* Align children to the bottom */
+    /* min-height: 100vh;         */
+    /* Assuming you want it at the bottom of the viewport */
+    /* padding-bottom: 20px;     */
+     /* Provide some space at the bottom */
+  }
+  
+  .goBack {
+    background-color: transparent;
+    border: 2px solid rgb(67, 7, 80);
+    min-width: 100px;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  
+  .goBack:hover {
+    background-color: rgb(67, 7, 80);
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  

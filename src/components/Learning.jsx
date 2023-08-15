@@ -1,7 +1,11 @@
 import React from 'react'
 import brainPic from './img/brain.png'
+import { useNavigate } from 'react-router-dom';
+
+
 function Learning() {
-   
+    const navigate = useNavigate();
+
     return (
         <div className="blog-post-intro">
             {/* <h2>Why I love front-end web development</h2> */}
@@ -50,9 +54,18 @@ function Learning() {
                     experience and safeguard your mental well-being.
                 </p>
                 <hr></hr>
-                <h6>Referencing: Dr. Terrence Sejnowski</h6>
+                <h6>Referencing: Dr. Terrence Sejnowski <br></br>
                 <a href={"https://acrosstraducciones.com/2017/09/06/learning-how-to-learn/"} target="_blank" id="link" rel="noreferrer">Click here to read more about it!</a>
+                </h6>
+
+                <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/personal'); }}>
+                    Go Back 
+                </button>
             </div>
+            </div>
+           
         </div>
     );
 };

@@ -1,7 +1,10 @@
 import React from 'react'
-import impostorPic from './img/imposter.png'
+import impostorPic from './img/imposter.png';
+import { useNavigate } from 'react-router-dom';
+
+
 function Impostor() {
-     
+    const navigate = useNavigate();
     return (
         <div className="blog-post-intro">
            <h2>Unleashing Your Inner Potential</h2>
@@ -43,6 +46,13 @@ function Impostor() {
                      future self will be grateful for your unwavering faith.
                 </p><hr></hr> 
                  <h6>By: Rose L.</h6>
+
+                 <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/personal'); }}>
+                    Go Back 
+                </button>
+            </div>
             </div>
         </div>
     );

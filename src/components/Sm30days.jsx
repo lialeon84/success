@@ -1,6 +1,10 @@
 import React from 'react'
-import socialMedia from './img/socialmedia.png'
+import socialMedia from './img/socialmedia.png';
+import { useNavigate } from 'react-router-dom';
+
+
 function Sm30days() {
+    const navigate = useNavigate();
     return (
         <div className="blog-post-intro">
             
@@ -43,7 +47,14 @@ function Sm30days() {
                     ensuring that I prioritize activities that align with my well-being and personal growth. 
                 </p> <hr></hr>
                 <h6>By: Rose L.</h6>
+                <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/personal'); }}>
+                    Go Back 
+                </button>
             </div>
+            </div>
+           
         </div>
     );
 };

@@ -1,4 +1,4 @@
-/* Deals.css */
+/* allblogs.css */
 
 .deals-container {
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
   }
   
   .card-container {
@@ -21,7 +21,7 @@
     width: 300px;
     /* justify-content: center; Center content vertically */
      /* Center content horizontally */
-    /* height: 350px; */ /* Remove height to let Flexbox control the height */
+    /* height: 350px; Remove height to let Flexbox control the height */
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -52,49 +52,25 @@
     height: 100%;
   }
   
-  .card-price, .card-discount {
+  .card-description {
     text-align: left;
     font-size: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 25%;
     margin-top: 5px;
   }
   
-  .card-original-price {
+  .card-original-description {
     text-align: left;
     font-size: 12px;
     color: #777;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
     margin-top: 5px;
   }
   
-  .card-rating {
-    text-align: left;
-    font-size: 12px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
+ 
   
-  .card-reviews {
-    text-align: left;
-    font-size: 12px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
   
-  .card-sales-volume {
-    text-align: left;
-    font-size: 12px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
-  
-  .card-shipping-info {
-    text-align: left;
-    font-size: 12px;
-    margin-bottom: 55px;
-  }
-  
-  .addToCartBttntwo {
+  .goToPage {
     background-color: transparent;
     border: 2px solid rgb(67, 7, 80);
     min-width: 100px;
@@ -103,7 +79,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 15px;
-    margin-top: 30px;
+    margin-top: 50%;
     margin-bottom: 20px;
   
     position: absolute; /* Add absolute positioning */
@@ -111,9 +87,11 @@
     align-self: center; /* Center the button horizontally */
   }
   
-  .addToCartBttntwo:hover {
+  .goToPage:hover {
     background-color: rgb(67, 7, 80);
     color: white;
     cursor: pointer;
   }
+  
+
   

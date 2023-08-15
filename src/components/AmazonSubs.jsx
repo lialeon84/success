@@ -2,11 +2,11 @@ import React from 'react'
 //import jspic from './img/js.png'
 //import  { concat } from 'lodash'
 import { SUBSCRIPTIONS } from '../amazonsubs'
-
+import { useNavigate } from 'react-router-dom';
 
 function AmazonSubs() {
   
-
+  const navigate = useNavigate();
    
   
         var newArray = [];
@@ -195,6 +195,13 @@ function AmazonSubs() {
           </p>
           <br></br>
           <hr></hr>
+
+          <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/projects'); }}>
+                    Go Back 
+                </button>
+            </div>
         </div>
       </div>
     );

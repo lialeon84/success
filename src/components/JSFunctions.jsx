@@ -1,9 +1,11 @@
 import React from 'react'
 import jspic from './img/js.png'
 import _ from 'lodash'
-
+import { useNavigate } from 'react-router-dom';
 
 function JSpage() {
+  const navigate = useNavigate();
+
     var people = [
         {
             id: 1,
@@ -198,6 +200,14 @@ function JSpage() {
           </p>
           <br></br>
           <hr></hr>
+
+          <div className="parent-of-goBack">
+                <button type="button" className='goBack' onClick={(e) => {
+                    e.preventDefault(); navigate('/dev'); }}>
+                    Go Back 
+                </button>
+            </div>
+
         </div>
       </div>
     );

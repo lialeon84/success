@@ -11,7 +11,9 @@ import Game from './Game';
 import Blog from './Blog';
 import AmazonSub from './AmazonSubs';
 import Gallery from './Gallery';
-
+import Personal from './PersonalGrowth';
+import DevJourney from './DevJourney';
+import DevGuide from './DevGuide';
 import React from 'react'
 import { Routes, Route} from "react-router-dom";
 import Container from 'react-bootstrap/Container';
@@ -29,57 +31,72 @@ const handleLinkClickHome = (e) => {
   e.preventDefault();
   navigate('/');
 }
-const handleLinkClickImpostor = (e) => {
-  e.preventDefault();
-  navigate('/impostor');
-}
-const handleLinkClickReactt = (e) => {
-  e.preventDefault();
-  navigate('/reactpage');
-}
+// const handleLinkClickImpostor = (e) => {
+//   e.preventDefault();
+//   navigate('/impostor');
+// }
+// const handleLinkClickReactt = (e) => {
+//   e.preventDefault();
+//   navigate('/reactpage');
+// }
 const handleLinkClickGadgets = (e) => {
   e.preventDefault();
   navigate('/gadgets');
 }
-const handleLinkClickLearn = (e) => {
-  e.preventDefault();
-  navigate('/learning');
-}
+// const handleLinkClickLearn = (e) => {
+//   e.preventDefault();
+//   navigate('/learning');
+// }
 const handleLinkClickAbout = (e) => {
   e.preventDefault();
   navigate('/about');
 }
-const handleLinkClickJSFunctions = (e) => {
-  e.preventDefault();
-  navigate('/js');
-}
-const handleLinkClickGame = (e) => {
-  e.preventDefault();
-  navigate('/game');
-}
+// const handleLinkClickJSFunctions = (e) => {
+//   e.preventDefault();
+//   navigate('/js');
+// }
+// const handleLinkClickGame = (e) => {
+//   e.preventDefault();
+//   navigate('/game');
+// }
 const handleLinkClickContact = (e) => {
   e.preventDefault();
   navigate('/contact');
 }
-const handleLinkClickBlog = (e) => {
-  e.preventDefault();
-  navigate('/blog');
-}
-const handleLinkClickDetox = (e) => {
-  e.preventDefault();
-  navigate('/detox');
-}
+// const handleLinkClickBlog = (e) => {
+//   e.preventDefault();
+//   navigate('/blog');
+// }
+// const handleLinkClickDetox = (e) => {
+//   e.preventDefault();
+//   navigate('/detox');
+// }
 
-const handleLinkClickAmazon = (e) => {
-  e.preventDefault();
-  navigate('/amazon');
-}
+// const handleLinkClickAmazon = (e) => {
+//   e.preventDefault();
+//   navigate('/amazon');
+// }
 
 const handleLinkClickGallery = (e) => {
   e.preventDefault();
   navigate('/gallery');
 }
 
+const handleLinkClickPersonal = (e) => {
+  e.preventDefault();
+  navigate('/personal');
+}
+
+
+const handleLinkClickProjects = (e) => {
+  e.preventDefault();
+  navigate('/projects');
+}
+
+const handleLinkClickDev = (e) => {
+  e.preventDefault();
+  navigate('/dev');
+}
  return(
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="color-nav" variant="light">
@@ -101,18 +118,20 @@ const handleLinkClickGallery = (e) => {
     <Nav className="mr-auto">
         <Nav.Link id="navLinks" href="/" onClick={handleLinkClickHome}>Home</Nav.Link>
         <Nav.Link id="navLinks" href="/gallery" onClick={handleLinkClickGallery}>Gallery</Nav.Link>
-        <Nav.Link id="navLinks" href="/js" onClick={handleLinkClickJSFunctions}>JS</Nav.Link>
+        {/* <Nav.Link id="navLinks" href="/js" onClick={handleLinkClickJSFunctions}>JS</Nav.Link> */}
+        <Nav.Link id="navLinks" href="/projects" onClick={handleLinkClickProjects}>Portfolio</Nav.Link>
         {/* <Nav.Link id="navLinks" href="/#"></Nav.Link> */}
-        <Nav.Link id="navLinks" href="/reactpage" onClick={handleLinkClickReactt}>React</Nav.Link>
-        <Nav.Link id="navLinks" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</Nav.Link>
+        {/* <Nav.Link id="navLinks" href="/reactpage" onClick={handleLinkClickReactt}>React</Nav.Link> */}
+        <Nav.Link id="navLinks" href="/dev" onClick={handleLinkClickDev}>Dev</Nav.Link>
         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item className="dropDown" href="/game" onClick={handleLinkClickGame}>Game</NavDropdown.Item>
-        <NavDropdown.Item className="dropDown" href="/amazon" onClick={handleLinkClickAmazon}>Amazon Chart</NavDropdown.Item>
-        {/* <NavDropdown.Item id="dropDown" href="/amazon" onClick={handleLinkClickDeals}>Amazon Deals</NavDropdown.Item> */}
-        <NavDropdown.Item className="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item>
-        <NavDropdown.Item className="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item>
-        <NavDropdown.Item className="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item>
-        <NavDropdown.Item className="dropDown" href="/blog" onClick={handleLinkClickBlog}>My Journey</NavDropdown.Item>
+        <NavDropdown.Item className="dropDown" href="/gadgets" onClick={handleLinkClickGadgets}>Gadgets</NavDropdown.Item>
+       
+        {/* <NavDropdown.Item className="dropDown" href="/amazon" onClick={handleLinkClickAmazon}>Amazon Chart</NavDropdown.Item> */}
+        <NavDropdown.Item className="dropDown" href="/personal" onClick={handleLinkClickPersonal}>Personal Growth</NavDropdown.Item>
+        {/* <NavDropdown.Item className="dropDown" href="/learning" onClick={handleLinkClickLearn}>Cognitive Learning</NavDropdown.Item> */}
+        {/* <NavDropdown.Item className="dropDown" href="/impostor" onClick={handleLinkClickImpostor}>Impostor</NavDropdown.Item> */}
+        {/* <NavDropdown.Item className="dropDown" href="/detox" onClick={handleLinkClickDetox}>30Days</NavDropdown.Item> */}
+        {/* <NavDropdown.Item className="dropDown" href="/blog" onClick={handleLinkClickBlog}>My Journey</NavDropdown.Item> */}
         <NavDropdown.Item className="dropDown" href="/about" onClick={handleLinkClickAbout}>About Me</NavDropdown.Item>
         <NavDropdown.Item className="dropDown" href="/contact" onClick={handleLinkClickContact}>Contact</NavDropdown.Item>
         {/* <NavDropdown.Item href="/contact">
@@ -142,7 +161,9 @@ const handleLinkClickGallery = (e) => {
     <Route path="/blog" element={<Blog/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
-    
+    <Route path="/personal" element={<Personal/>} />
+    <Route path="/projects" element={<DevJourney/>} />
+    <Route path="/dev" element={<DevGuide/>} />
   </Routes>
   
   </>

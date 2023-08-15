@@ -1,11 +1,11 @@
 import React from 'react'
 import homepic from './img/stars.jpg';
-import servicespic from './img/Features.png';
+// import servicespic from './img/Features.png';
 
-import webdev from './img/webdev.png';
-import tech from './img/tech.png';
-import focus from './img/Focus.png';
-import laptop from './img/laptop.png';
+// import webdev from './img/webdev.png';
+// import tech from './img/tech.png';
+// import focus from './img/Focus.png';
+// import laptop from './img/laptop.png';
 
 function Home() {
   // event.preventDefault();
@@ -25,7 +25,7 @@ function Home() {
     {/* <br></br> */}
     {/* <section> */}
       {/* <div className="blog-post-intro"> */}
-         <div className='imgWrappertwo'>
+         <div className='imgWrappertwo bg-black'>
               <img src={homepic} alt="HomePic" className="img-fluidtwo"/>
               <div className="shooting-star"></div>
               <div className="overlay-text">Hi, I'm Rose | Software Engineer

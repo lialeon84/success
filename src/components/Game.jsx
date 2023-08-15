@@ -4,9 +4,12 @@ import React, { useState } from 'react';
 import '../game.css';
 import ChatBot from "react-simple-chatbot";
 import { steps } from "../gameLogic";
+import { useNavigate } from 'react-router-dom';
 // import $ from 'jquery';
 
 export default function Game() {
+  const navigate = useNavigate();
+
     const [showChatBot, setShowChatBot] = useState(false);
    
 
@@ -18,12 +21,6 @@ export default function Game() {
         
       };
     
-    
-    
-       
-
-       
-
    
     return (
         <div className="bg-black">
@@ -62,12 +59,14 @@ export default function Game() {
             </div>
           </div>
         </div>
-      </div>
-           
 
-        
-         
-           
+      </div>
+      <div className="parent-of-goBack">
+                <button type="button" className="rounded-xl bg-gradient-to-br from-[#00DBDE] to-[#FC00FF] px-5 py-3 text-base font-medium text-white transition duration-200 hover:shadow-lg hover:shadow-[#FC00FF]/50 float-right mb-80" onClick={(e) => {
+                    e.preventDefault(); navigate('/projects'); }}>
+                    Go Back 
+                </button>
+            </div>
  </div>
     
     );
