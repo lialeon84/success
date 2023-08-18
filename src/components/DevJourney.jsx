@@ -5,6 +5,7 @@ import game from "./img/game.png";
 import cards from './img/close-up-of-pictures.jpg'
 import number from "./img/Numbers.png";
 import arcade from "./img/arcade.jpg";
+import people from "./img/people.jpg";
 import '../allblogs.css'
 
 
@@ -54,6 +55,14 @@ function Projects() {
             description: "",
             
         },
+        {
+          id: 6,
+          pic: people,
+          link: 'https://random-user-alpha-six.vercel.app',
+          title: "Random Users",
+          description: "",
+          
+      },
         
     ]
    
