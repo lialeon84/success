@@ -148,7 +148,7 @@ function AmazonSubs() {
 
     return (
         <div className="blog-post-intro">
-        <h2>Amazon Subscription Chart</h2>
+        <h2>Amazon Subscription Table</h2>
         <div className='imgWrapperthree'>
           <hr></hr> 
           {/* <img src={jspic} alt="React" className="img-fluidthree rounded" />  */}

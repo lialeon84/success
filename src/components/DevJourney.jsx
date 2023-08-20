@@ -43,7 +43,7 @@ function Projects() {
             id: 4,
             pic: webNum,
             link: '/amazon',
-            title: "Amazon Subscription Chart",
+            title: "Amazon Subscription Table",
             description: "",
             
         },
