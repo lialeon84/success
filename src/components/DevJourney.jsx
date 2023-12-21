@@ -39,14 +39,14 @@ function Projects() {
             description: "",
            
         },
-        {
-            id: 4,
-            pic: webNum,
-            link: '/amazon',
-            title: "Amazon Subscription Table",
-            description: "",
+        // {
+        //     id: 4,
+        //     pic: webNum,
+        //     link: '/amazon',
+        //     title: "Amazon Subscription Table",
+        //     description: "",
             
-        },
+        // },
         {
             id: 5,
             pic: arcade,
